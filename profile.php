@@ -204,4 +204,8 @@ $fname = $user["fname"];
 <div>
     <h1>Hello, Kanha</h1>
 </div>
+
+<div>
+    Github
+</div>
 <!-- User profile end -->
