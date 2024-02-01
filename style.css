@@ -1,0 +1,139 @@
+/* For Webkit Browsers (Chrome, Safari) */
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* *::-webkit-scrollbar-thumb {
+    background-color: #e6acb9;
+} */
+
+
+.logo {
+    font-size: 26px;
+    font-family: 'Caveat', cursive;
+}
+
+.shopping {
+    text-decoration: none;
+    color: black;
+}
+
+.cart {
+    font-size: 1.4rem;
+}
+
+
+.cartCount {
+    background: black;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 50px;
+    color: white;
+}
+
+.allCategory {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.type {
+    font-weight: 600;
+}
+
+.hero {
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Products css start */
+.parent {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.parent>div {
+    margin-top: 5.5rem;
+    width: 350px;
+    height: 350px;
+    transition: 0.8s;
+}
+
+.parent>div:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.learnMore {
+    text-decoration: none;
+    color: #e6acb9;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #e6acb9;
+    border-radius: 20px;
+}
+
+/* Product css end */
+
+
+/* Product info css start */
+.productInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.addToCart>button {
+    width: 95%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #e6acb9;
+    border: none;
+    color: white;
+    font-weight: 800;
+}
+
+.image2>img {
+    width: 35%;
+}
+
+/* Product info css end */
+
+
+/* Footer styling start */
+.footer {
+    background-color: rgb(246, 244, 244);
+    padding-bottom: 3%;
+}
+
+
+.footer-shop,
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(88, 87, 87);
+}
+
+.footer-email,
+.email {
+    height: 50px;
+}
+
+.subscribe {
+    height: 40px;
+    background-color: #e6acb9;
+}
+
+/* Footer styling end */
