@@ -202,6 +202,6 @@ $fname = $user["fname"];
 </section>
 
 <div>
-    <h1>Hello</h1>
+    <h1>Hello, Kanha</h1>
 </div>
 <!-- User profile end -->
